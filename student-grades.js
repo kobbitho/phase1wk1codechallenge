@@ -1,18 +1,21 @@
+const points = prompt("input your point: ");
+studentGrade(points);
 function studentGrade(score){
    
     if(score >79){
-        return "A";
+        return grade = "A";
     }else if (score >= 60 && score <= 79){
-        return "B";
+        return grade = "B";
     }else if (score >= 49 && score <= 59){
-        return "C";
+        return grade = "C";
     }else if(score >= 40 && score <= 49){
-        return "D";
+        return grade = "D";
     }else if (score < 40){
-        return "E";
+       return  grade = "E";
     }
+    document.getElementById("return").innerHTML = `Grade: ${grade}`;
 }
-console.log(studentGrade(50));
+
 
  /*This function takes a score input as an argument and 
  returns the equivalent grade.
