@@ -25,7 +25,7 @@ You use git clone to be able to download the documents in the GitHub
 Git
 
 ### Installation Instructions
-
+Fork the repository then clone it into your local environment, then open it in a code editor.
 
 # Live link
 https://github.com/kobbitho/phase1wk1codechallenge.git
